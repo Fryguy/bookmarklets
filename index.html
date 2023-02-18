@@ -1,0 +1,37 @@
+<html>
+<head>
+  <title>Fryguy's Bookmarklets</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: inline-block;
+      text-align: center;
+    }
+    .button {
+      display: inline-block;
+      color: white;
+      background: #484A4B;
+      border-radius: 5px;
+      padding: 10px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    iframe {
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+  <p><b>Drag the button to your Bookmark Toolbar to install</b></p>
+
+  <hr>
+
+  <a class="button" href="javascript:(function(){pwd=document.getElementById('password');pwd.removeAttribute('autocomplete');pwd.removeAttribute('readonly');pwd.style.backgroundColor='white';})();">Unlock Password</a>
+  <br/>
+  <iframe
+    src="https://carbon.vercel.app/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=5px&ph=5px&ln=false&fl=2&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=javascript%253A%28function%2520%28%29%2520%257B%250A%2520%2520pwd%2520%253D%2520document.getElementById%28%27password%27%29%253B%250A%2520%2520pwd.removeAttribute%28%27autocomplete%27%29%253B%250A%2520%2520pwd.removeAttribute%28%27readonly%27%29%253B%250A%2520%2520pwd.style.backgroundColor%2520%253D%2520%27white%27%253B%250A%257D%29%28%29%253B"
+    style="width: 439px; height: 196px; border:0; transform: scale(1); overflow:hidden;"
+    sandbox="allow-scripts allow-same-origin">
+  </iframe>
+</body>
+</html>
