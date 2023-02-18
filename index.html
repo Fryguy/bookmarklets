@@ -22,9 +22,14 @@
   </style>
 </head>
 <body>
-  <p><b>Drag the button to your Bookmark Toolbar to install</b></p>
+  <p>
+    <b>
+    Installation: Drag the button to your Bookmark Toolbar and Save.<br/>
+    Usage: Click the Bookmark when you are on the page.
+    </b>
+  </p>
 
-  <hr>
+  <hr/>
 
   <a class="button" href="javascript:(function(){pwd=document.getElementById('password');pwd.removeAttribute('autocomplete');pwd.removeAttribute('readonly');pwd.style.backgroundColor='white';})();">Unlock Password</a>
   <br/>
@@ -33,5 +38,7 @@
     style="width: 439px; height: 196px; border:0; transform: scale(1); overflow:hidden;"
     sandbox="allow-scripts allow-same-origin">
   </iframe>
+  <p>Try it (Click the button above or your installed bookmark)</p>
+  Password: <input style="background-color: #efefef" type="password" autocomplete="off" readonly="readonly" name="password" id="password" size="30" maxlength="64" class="pwordinput" value="">
 </body>
 </html>
